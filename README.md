@@ -9,14 +9,11 @@ python -m venv venv
 source venv/bin/activate # Для Linux/Mac
 venv\Scripts\activate # Для Windows
 
-
 2. Установите зависимости:
 pip install -r requirements.txt
 
-
 3. Запустите скрипт для создания регулярных выражений:
 python scripts/create_regex.py
-
 
 ## Структура базы данных
 База данных `domains.db` содержит две таблицы:
