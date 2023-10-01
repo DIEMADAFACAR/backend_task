@@ -6,13 +6,15 @@
 ## Установка и запуск
 1. Создайте виртуальное окружение (рекомендуется):
 python -m venv venv
+
 source venv/bin/activate # Для Linux/Mac
+
 venv\Scripts\activate # Для Windows
 
-2. Установите зависимости:
+3. Установите зависимости:
 pip install -r requirements.txt
 
-3. Запустите скрипт для создания регулярных выражений:
+4. Запустите скрипт для создания регулярных выражений:
 python scripts/create_regex.py
 
 ## Структура базы данных
