@@ -2,7 +2,7 @@ import sqlite3
 import re
 import os
 
-# Определите абсолютный путь к базе данных
+# Определение абсолютного пути к базе данных
 db_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../database/domains.db'))
 
 # Подключение к базе данных
